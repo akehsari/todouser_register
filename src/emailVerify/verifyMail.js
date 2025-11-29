@@ -14,7 +14,7 @@ export const verifyMail = (token, email , userName) => {
   const mailConfigurations = {
     from: process.env.mail,
     to: email,
-    subject: "Email Verification!!!!!!!!!!!!!!!!!!!!",
+    subject: "Email Verification!",
     text: `Hello ${userName}, Kindly Verify ${token} `
 //     text:`Hi! There, You have recently visited
 //            our website and entered your email.
